@@ -1,15 +1,6 @@
-const path = require('path');
+console.log("first");
+setTimeout(() => {
+   console.log("work"); 
+}, 9);
 
-
-console.log(path.sep);
-
-const filepath = path.join('/content','subfolder','text.txt');
-console.log(filepath)
-
-
-const base = path.basename(filepath);
-console.log(base);
-
-const absolute = path.resolve(__dirname,'content','subfolder');
-console.log(absolute);
-
+console.log("work work");
